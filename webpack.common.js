@@ -11,7 +11,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
    plugins: [
      new HtmlWebpackPlugin({
        title: 'Restaurant Menu Page',
-       filename: 'index.html'
+       filename: 'index.html', 
+       template: 'src/index.html'
      }),
    ],
    output: {
