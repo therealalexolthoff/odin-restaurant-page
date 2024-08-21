@@ -1,5 +1,5 @@
 import './home.js';
-import './contact.js';
+import { renderContactPage } from './contact.js';
 import { renderMenuPage } from './menu.js';
 function runEventListeners() {
     const content = document.getElementById('content')
@@ -10,7 +10,7 @@ function runEventListeners() {
         content.innerHTML = renderMenuPage();
     })
     document.getElementById('contact').addEventListener('click', () => {
-        content.innerHTML = 'Contact'
+        content.innerHTML = renderContactPage();
     })
 }
 export {runEventListeners};
