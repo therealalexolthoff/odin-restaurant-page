@@ -40,3 +40,4 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
     runtimeChunk: 'single',
   },
  };
+ 
