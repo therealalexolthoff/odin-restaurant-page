@@ -19,11 +19,11 @@ function renderTestimonial(testimonialText,customerName){
 }
 
 function renderHoursContainer(){
-    return `<div><h2>Hours</h2><div><span>Sunday: ${RESTAURANTDATA.hours.sunday}</span><span>Monday: ${RESTAURANTDATA.hours.monday}</span><span>Tuesday: ${RESTAURANTDATA.hours.wednesday}</span><span>Wednesday:</span><span>Thursday:${RESTAURANTDATA.hours.thursday}</span><span>Friday:${RESTAURANTDATA.hours.friday}</span><span>Saturday:${RESTAURANTDATA.hours.saturday}</span></div></div>`
+    return `<div><h2>Hours</h2><div><p>Sunday: ${RESTAURANTDATA.hours.sunday}</p><p>Monday: ${RESTAURANTDATA.hours.monday}</p><p>Tuesday: ${RESTAURANTDATA.hours.tuesday}</p><p>Wednesday: ${RESTAURANTDATA.hours.wednesday}</p><p>Thursday: ${RESTAURANTDATA.hours.thursday}</p><p>Friday: ${RESTAURANTDATA.hours.friday}</p><p>Saturday: ${RESTAURANTDATA.hours.saturday}</p></div></div>`
 }
 
 function renderLocation() {
-    return `<div><h2>Location</h2><p>Address: ${RESTAURANTDATA.address} </p></div>`
+    return `<div><h2>Location</h2><p>${RESTAURANTDATA.address} </p></div>`
 }
 
 function renderHomePage() {

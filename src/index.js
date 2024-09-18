@@ -1,3 +1,3 @@
+import './style.css';
 import {runEventListeners} from './clickHandlers.js';
 runEventListeners();
-console.log("It's working");
